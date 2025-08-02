@@ -19,7 +19,7 @@ const ProjectsSection = () => {
     <section id="projects" className="py-20 px-4 md:px-10 bg-[#0A192F]">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-[#E6F1FF] mb-12">
-          Things I've Built
+          Things I&apos;ve Built
         </h2>
 
         <motion.div
