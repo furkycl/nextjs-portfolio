@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400">
         <div className="flex justify-center space-x-6 mb-4">
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/furkycl"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub Profile"
@@ -18,7 +18,7 @@ const Footer = () => {
             <FaGithub size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/your-username"
+            href="https://linkedin.com/in/furkycl"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn Profile"
