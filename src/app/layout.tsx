@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Orbitron } from "next/font/google";
 import "./globals.css";
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -25,10 +26,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} ${orbitron.variable} font-sans`}>
+    <html lang="en" className="!scroll-smooth">
+      <body
+        className={`${inter.variable} ${orbitron.variable} font-sans bg-[#0A192F]`}
+      >
         <Navbar />
-        {children}
+        <main>{children}</main> <Footer />
       </body>
     </html>
   );
