@@ -71,6 +71,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <a
+                aria-label="GitHub Profile"
                 href="https://github.com/furkycl"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -79,6 +80,7 @@ const Navbar = () => {
                 <FaGithub size={22} />
               </a>
               <a
+                aria-label="LinkedIn Profile"
                 href="https://linkedin.com/in/furkycl"
                 target="_blank"
                 rel="noopener noreferrer"
