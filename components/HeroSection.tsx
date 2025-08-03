@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence, Variants } from "framer-motion";
 
 const titles = [
+  "a Software Engineer",
   "a Full Stack Developer.",
   "a Prompt Engineer.",
   "a Digital Nomad.",
